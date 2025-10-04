@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function Hero() {
-  const imageUrl = "public/images/Hero.jpg";
+  const imageUrl = "/images/Hero.jpg";
   const container = {
     hidden: { opacity: 0 },
     show: {

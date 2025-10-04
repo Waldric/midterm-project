@@ -18,7 +18,7 @@ export default function FeatureSection({
   onShowInlineSearch,
 }) {
   const { user, login } = useAuth();
-  const imageUrl = "public/images/FeatureSection.jpg";
+  const imageUrl = "/images/FeatureSection.jpg";
 
   // scroll helper (no event dependency)
   function scrollToList() {
@@ -76,8 +76,8 @@ export default function FeatureSection({
             className="mt-5 text-base md:text-lg font-medium text-neutral-600 max-w-xl"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
-            Find the right place to stay focused, productive, and feel
-            comfortable while learning
+            Find the right place to stay focused, productive, <br />
+            and feel comfortable while learning
           </p>
 
           <motion.a
